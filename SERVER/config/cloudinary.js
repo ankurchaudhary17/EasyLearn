@@ -4,9 +4,9 @@ exports.cloudinaryConnect = () => {
 	try {
 		cloudinary.config({
 			//!    ########   Configuring the Cloudinary to Upload MEDIA ########
-			cloud_name: process.env.CLOUD_NAME,
-			api_key: process.env.API_KEY,
-			api_secret: process.env.API_SECRET,
+			cloud_name: "dqwhm4byc",
+			api_key: "721463979462567",
+			api_secret: "Nt6ysuBcK5iMmv5u6Zz-8-Rjjzs",
 		});
 	} catch (error) {
 		console.log(error);
