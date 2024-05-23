@@ -38,7 +38,7 @@ exports.showAllCategories = async (req, res) => {
   } catch (error) {
     return res.status(500).json({
       success: false,
-      message: error.message,
+      message: 'Tum chutiya ho jo ye endpoint hit kr rhe',
     })
   }
 }
